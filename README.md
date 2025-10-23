@@ -1,4 +1,3 @@
-### study-of-basic-gates
 
 **AIM:** 
 
@@ -66,14 +65,36 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:Shafi Ahmed MS RegisterNumber:25014933
+
+ assign c[0]= a & b;
+
+assign c[1]= a | b;
+
+assign c[2]= ~(a & b);
+
+assign c[3]= ~(a | b);
+
+assign c[4]= a ^ b;
+
+assign c[5]= ~(a ^ b);
+
+assign c[6]= ~ a;
  
 **Logic symbol & Truthtable**
 
+<img width="1035" height="549" alt="image" src="https://github.com/user-attachments/assets/08af150c-ac90-4508-b0d7-657909f29dec" />
+
+<img width="1035" height="549" alt="image" src="https://github.com/user-attachments/assets/893c0d33-42f8-4ab0-aac2-6f3cc7b79dfb" />
+
 **RTL realization Output:** 
+
+<img width="898" height="869" alt="image" src="https://github.com/user-attachments/assets/ef29d1c8-173a-473b-be82-8782973bf2e9" />
 
 **RTL**
 
-**Result:**
+<img width="1036" height="245" alt="image" src="https://github.com/user-attachments/assets/edfe1165-c1bb-4e2f-9a98-e6cb35a3d5c8" />
+
+**Result:**Thus the outputs of Basic Logic Gates are verified by simulating and synthesizing the VERILOG code.
 
 
